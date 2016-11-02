@@ -319,7 +319,7 @@ public class HttpRequester {
         // set request method
         httpConnection.setRequestMethod(method);
 
-        // set request sortedData
+        // set request data
         if (queryString != null) {
             httpConnection.setDoOutput(true);
             OutputStream outputStream = httpConnection.getOutputStream();
